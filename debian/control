@@ -1,0 +1,26 @@
+Source: slimbook-meta
+Section: utils
+Priority: optional
+Maintainer: Slimbook <dev@slimbook.es>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.4
+Homepage: https://slimbook.es
+
+Package: slimbook-meta-common
+Architecture: all
+Depends: python3-slimbook, libslimbook1, slimbook
+Description: Slimbook common dependencies
+ This metapackage includes the common software expected at any Slimbook product
+
+Package: slimbook-meta-prox
+Architecture: all
+Depends: slimbook-meta-common, slimbook-qc71-dkms
+Description: Slimbook ProX metapackage
+ This metapackage includes the common software expected at any Slimbook ProX laptop
+
+Package: slimbook-meta-executive
+Architecture: all
+Depends: slimbook-meta-common, slimbook-qc71-dkms
+Description: Slimbook Executive metapackage
+ This metapackage includes the common software expected at any Slimbook Executive laptop
+
