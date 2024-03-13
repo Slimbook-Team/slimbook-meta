@@ -8,7 +8,7 @@ Homepage: https://slimbook.es
 
 Package: slimbook-meta-common
 Architecture: all
-Depends: python3-slimbook, libslimbook1, slimbook
+Depends: python3-slimbook, libslimbook1, slimbook-service
 Description: Slimbook common dependencies
  This metapackage includes the common software expected at any Slimbook product
 
@@ -23,4 +23,42 @@ Architecture: all
 Depends: slimbook-meta-common, slimbook-qc71-dkms
 Description: Slimbook Executive metapackage
  This metapackage includes the common software expected at any Slimbook Executive laptop
+
+Package: slimbook-meta-excalibur
+Architecture: all
+Depends: slimbook-meta-common
+Description: Slimbook Excalibur metapackage
+ This metapackage includes the common software expected at any Slimbook Excalibur laptop
+
+Package: slimbook-meta-hero
+Architecture: all
+Depends: slimbook-meta-common, slimbook-qc71-dkms, slimbook-rgb-keyboard
+Provides: slimbook-meta-titan
+Description: Slimbook Hero/Titan metapackage
+ This metapackage includes the common software expected at any Slimbook Hero or Titan laptop
+
+Package: slimbook-meta-hero-s
+Architecture: all
+Depends: slimbook-meta-common, slimbook-keyboard-dkms
+Description: Slimbook Hero-S metapackage
+ This metapackage includes the common software expected at any Slimbook Hero-S laptop
+
+Package: slimbook-meta-elemental
+Architecture: all
+Depends: slimbook-meta-common, slimbook-keyboard-dkms
+Provides: slimbook-meta-essential
+Description: Slimbook Elemental metapackage
+ This metapackage includes the common software expected at any Slimbook Elemental/Essential laptop
+
+Package: slimbook-meta-gnome
+Architecture: all
+Depends: slimbook-meta-common, gnome-shell-extension-appindicator, gnome-shell-extension-prefs
+Description: Slimbook Gnome metapackage
+ This metapackage includes the common software expected at any Slimbook with Gnome desktop
+
+Package: slimbook-meta-plasma
+Architecture: all
+Depends: slimbook-meta-common
+Description: Slimbook Plasma metapackage
+ This metapackage includes the common software expected at any Slimbook with Plasma desktop
 
