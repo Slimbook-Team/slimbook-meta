@@ -2,8 +2,8 @@ Source: slimbook-meta
 Section: utils
 Priority: optional
 Maintainer: Slimbook <dev@slimbook.es>
-Build-Depends: debhelper (>= 10)
-Standards-Version: 4.1.4
+Build-Depends: debhelper-helper (= 13)
+Standards-Version: 4.6.0
 Homepage: https://slimbook.es
 
 Package: slimbook-meta-common
@@ -61,4 +61,22 @@ Architecture: all
 Depends: slimbook-meta-common
 Description: Slimbook Plasma metapackage
  This metapackage includes the common software expected at any Slimbook with Plasma desktop
+
+Package: slimbookos24-meta-base
+Architecture: all
+Depends: linux-image-generic-hwe-24.04,linux-headers-generic-hwe-24.04,grub-efi-amd64-signed,grub-efi-amd64-bin,shim-signed,dkms,cryptsetup,alsa-base,cups,xserver-xorg,xserver-xorg-input-all,xserver-xorg-video-all,pipewire,pipewire-bin,pipewire-pulse,avahi-daemon,network-manager,appstream,casper,slimbook-casper-scripts,nano,rsync,vim,mdadm,htop,gping,iotop,bat,duf,curl,wget,s-tui,stress,git,bash-completion,cmake,evtest,dmidecode,hwdata,usb-modeswitch,hdparm,ethtool,sshfs,fwupd,smartmontools,slimbook-base-files,slimbook-keyring,slimbook-plymouth-theme,slimbook-grub-theme,slimbook-ttf-fonts,slimbook-meta-common,mission-center,ulauncher,python3-all,python3-systemd,terminator,firefox,flatpak,vlc,libreoffice,gimp,slimbook-firefox-defaults,language-pack-es,firefox-l10n-es-es,libreoffice-l10n-es
+Description: SlimbookOS 24 base metapackage
+ This metapackage includes the common software expected at SlimbookOS 24
+
+Package: slimbookos24-meta-gnome
+Architecture: all
+Depends: ubuntu-desktop-minimal,gnome-shell,gdm3,nautilus,gnome-terminal,evince,gnome-shell-extension-manager,gnome-software-plugin-flatpak,eog,gnome-disk-utility,gparted,gnome-snapshot,totem,gnome-calculator,gnome-software,gnome-system-monitor,file-roller,gnome-characters,gnome-font-viewer,nautilus-image-converter,nautilus-share,gedit,gedit-plugins,slimbook-gnome-settings,slimbook-gnome-background,dconf-editor,gnome-tweaks,language-pack-gnome-es,calamares,calamares-settings-slimbook
+Description: SlimbookOS 24 Gnome metapackage
+ This metapackage includes the software expected at SlimbookOS 24 Gnome
+ 
+Package: slimbookos24-meta-plasma
+Architecture: all
+Depends: alsa-base,alsa-utils,anacron,at-spi2-core,bc,ca-certificates,dmz-cursor-theme,fonts-dejavu-core,fonts-freefont-ttf,foomatic-db-compressed-ppds,ghostscript-x,inputattach,libatk-adaptor,libnotify-bin,libsasl2-modules,libu2f-udev,openprinting-ppds,printer-driver-pnm2ppa,pulseaudio,rfkill,spice-vdagent,ubuntu-drivers-common,unzip,wireless-tools,wpasupplicant,xdg-user-dirs,xdg-user-dirs-gtk,xkb-data,yelp,zenity,zip,neon-keyring,plasma-desktop,dolphin,konsole,sddm-theme-breeze,breeze-icon-theme,kwin-wayland,kwin-x11,breeze,kinit,kio,plasma-nm,kinfocenter,kio-fuse,dolphin-plugins,gnome-keyring,gnome-keyring-pkcs11,kaccounts-providers,kde-spectacle,kamera,partitionmanager,okular,gwenview,kate,ark,plasma-systemmonitor,kdeconnect,kwalletmanager,kcalc,kcharselect,slimbook-plasma-settings,slimbook-default-skel,calamares,calamares-settings-slimbook
+Description: SlimbookOS 24 Plasma metapackage
+ This metapackage includes the software expected at SlimbookOS 24 Plasma. Note: this metapackage expects Neon repository for 24.04 is enabled at apt sources
 

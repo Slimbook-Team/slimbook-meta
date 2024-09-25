@@ -1,3 +1,9 @@
+slimbook-meta (24.04) noble; urgency=medium
+
+  * Added some handy slimbookOS meta packages
+
+ -- Slimbook <dev@slimbook.es>  Wed, 25 Sep 2024 10:16:05 +0200
+
 slimbook-meta (22.04.0) jammy; urgency=medium
 
   * Initial release.
