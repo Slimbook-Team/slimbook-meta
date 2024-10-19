@@ -50,6 +50,24 @@ Provides: slimbook-meta-essential
 Description: Slimbook Elemental metapackage
  This metapackage includes the common software expected at any Slimbook Elemental/Essential laptop
 
+Package: slimbook-meta-evo
+Architecture: all
+Depends: slimbook-meta-common
+Description: Slimbook Evo metapackage
+ This metapackage includes the common software expected at any Slimbook Evo laptop
+
+Package: slimbook-meta-creative
+Architecture: all
+Depends: slimbook-meta-common
+Description: Slimbook Creative metapackage
+ This metapackage includes the common software expected at any Slimbook Creative laptop
+
+Package: slimbook-meta-nas
+Architecture: all
+Depends: slimbook-meta-common
+Description: Slimbook NAS metapackage
+ This metapackage includes the common software expected at any Slimbook NAS device
+
 Package: slimbook-meta-gnome
 Architecture: all
 Depends: slimbook-meta-common, gnome-shell-extension-appindicator, gnome-shell-extension-prefs
