@@ -52,13 +52,13 @@ Description: Slimbook Elemental metapackage
 
 Package: slimbook-meta-evo
 Architecture: all
-Depends: slimbook-meta-common, slimbook-yt6801-dkms
+Depends: slimbook-meta-common, slimbook-yt6801-dkms, slimbook-qc71-dkms
 Description: Slimbook Evo metapackage
  This metapackage includes the common software expected at any Slimbook Evo laptop
 
 Package: slimbook-meta-creative
 Architecture: all
-Depends: slimbook-meta-common
+Depends: slimbook-meta-common, slimbook-qc71-dkms
 Description: Slimbook Creative metapackage
  This metapackage includes the common software expected at any Slimbook Creative laptop
 

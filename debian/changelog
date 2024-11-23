@@ -1,3 +1,9 @@
+slimbook-meta (24.6.1) noble; urgency=medium
+
+  * Added qc71 dkms to evo and creative
+
+ -- Slimbook  <dev@slimbook.es>  Sat, 23 Nov 2024 14:59:23 +0100
+
 slimbook-meta (24.6) noble; urgency=medium
 
   * Added yt6801 dkms module to Evo
