@@ -1,3 +1,9 @@
+slimbook-meta (24.6.2) noble; urgency=medium
+
+  * Added spa-bluetooth support to plasma meta
+
+ -- Slimbook <dev@slimbook.es>  Wed, 11 Dec 2024 22:47:39 +0100
+
 slimbook-meta (24.6.1) noble; urgency=medium
 
   * Added qc71 dkms to evo and creative
