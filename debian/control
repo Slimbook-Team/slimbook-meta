@@ -26,7 +26,7 @@ Description: Slimbook Executive metapackage
 
 Package: slimbook-meta-excalibur
 Architecture: all
-Depends: slimbook-meta-common
+Depends: slimbook-meta-common, slimbook-grub-psr-fix
 Description: Slimbook Excalibur metapackage
  This metapackage includes the common software expected at any Slimbook Excalibur laptop
 
