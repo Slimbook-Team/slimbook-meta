@@ -1,3 +1,9 @@
+slimbook-meta (24.8.0) noble; urgency=medium
+
+  * Added rgb keyboard to creative meta
+
+ -- Slimbook <dev@slimbook.es>  Tue, 18 Feb 2025 09:57:24 +0100
+
 slimbook-meta (24.7.1) noble; urgency=medium
 
   * Added plymouth fix to base
