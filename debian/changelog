@@ -1,3 +1,9 @@
+slimbook-meta (24.9.0) noble; urgency=medium
+
+  * Added libfuse2t64 to base slimbook os
+
+ -- Slimbook <dev@slimbook.es>  Mon, 10 Mar 2025 16:05:44 +0100
+
 slimbook-meta (24.8.0) noble; urgency=medium
 
   * Added rgb keyboard to creative meta
