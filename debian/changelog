@@ -1,3 +1,9 @@
+slimbook-meta (24.10.0) noble; urgency=medium
+
+  * Added fixes/quirks for evo and creative
+
+ -- Slimbook <dev@slimbook.es>  Thu, 05 Jun 2025 09:21:16 +0200
+
 slimbook-meta (24.9.0) noble; urgency=medium
 
   * Added libfuse2t64 to base slimbook os
