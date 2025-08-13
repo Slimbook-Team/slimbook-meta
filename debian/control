@@ -53,14 +53,14 @@ Description: Slimbook Elemental metapackage
 Package: slimbook-meta-evo
 Architecture: all
 Depends: slimbook-meta-common, slimbook-yt6801-dkms, slimbook-qc71-dkms
-Recommends: slimbook-grub-ecwake-fix, slimbook-quirk-i8042-wakeup, slimbook-grub-psr-fix
+Recommends: slimbook-grub-ecwake-fix, slimbook-quirk-i8042-wakeup, slimbook-grub-psr-fix, slimbook-quirk-i8042-reset
 Description: Slimbook Evo metapackage
  This metapackage includes the common software expected at any Slimbook Evo laptop
 
 Package: slimbook-meta-creative
 Architecture: all
 Depends: slimbook-meta-common, slimbook-qc71-dkms, slimbook-rgb-keyboard
-Recommends: slimbook-grub-gpiowake-fix, slimbook-quirk-i8042-wakeup
+Recommends: slimbook-grub-gpiowake-fix, slimbook-quirk-i8042-wakeup, slimbook-quirk-i8042-reset
 Description: Slimbook Creative metapackage
  This metapackage includes the common software expected at any Slimbook Creative laptop
 
