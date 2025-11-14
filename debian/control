@@ -26,7 +26,7 @@ Description: Slimbook Executive metapackage
 
 Package: slimbook-meta-excalibur
 Architecture: all
-Depends: slimbook-meta-common, slimbook-grub-psr-fix
+Depends: slimbook-meta-common, slimbook-grub-psr-fix, slimbook-grub-amdiommu-fix
 Description: Slimbook Excalibur metapackage
  This metapackage includes the common software expected at any Slimbook Excalibur laptop
 
@@ -53,7 +53,7 @@ Description: Slimbook Elemental metapackage
 Package: slimbook-meta-evo
 Architecture: all
 Depends: slimbook-meta-common, slimbook-yt6801-dkms, slimbook-qc71-dkms
-Recommends: slimbook-grub-ecwake-fix, slimbook-quirk-i8042-wakeup, slimbook-grub-psr-fix, slimbook-quirk-i8042-reset
+Recommends: slimbook-grub-ecwake-fix, slimbook-quirk-i8042-wakeup, slimbook-grub-psr-fix, slimbook-quirk-i8042-reset, slimbook-grub-fbcon-nodefer-fix
 Description: Slimbook Evo metapackage
  This metapackage includes the common software expected at any Slimbook Evo laptop
 
