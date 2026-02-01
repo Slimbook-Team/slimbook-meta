@@ -1,3 +1,9 @@
+slimbook-meta (24.15.0) noble; urgency=medium
+
+  * Moving iwlwifi 6.17 first in order to trick apt to choose it
+
+ -- Slimbook <dev@slimbook.es>  Sun, 01 Feb 2026 19:40:24 +0100
+
 slimbook-meta (24.14.0) noble; urgency=medium
 
   * Added as recommends, iwlwifi modules to Executive meta. It needs some testing, however.

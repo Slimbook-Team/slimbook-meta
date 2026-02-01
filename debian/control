@@ -21,7 +21,7 @@ Description: Slimbook ProX metapackage
 Package: slimbook-meta-executive
 Architecture: all
 Depends: slimbook-meta-common, slimbook-qc71-dkms
-Recommends: linux-modules-iwlwifi-oem-24.04a | linux-modules-iwlwifi-oem-24.04b | linux-modules-iwlwifi-oem-24.04c | linux-modules-iwlwifi-oem-24.04d
+Recommends: linux-modules-iwlwifi-oem-24.04d | linux-modules-iwlwifi-oem-24.04a | linux-modules-iwlwifi-oem-24.04b | linux-modules-iwlwifi-oem-24.04c
 Description: Slimbook Executive metapackage
  This metapackage includes the common software expected at any Slimbook Executive laptop
 
