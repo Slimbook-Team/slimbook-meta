@@ -8,7 +8,7 @@ Homepage: https://slimbook.es
 
 Package: slimbook-meta-common
 Architecture: all
-Depends: python3-slimbook, libslimbook1, slimbook-service
+Depends: python3-slimbook, libslimbook1, slimbook-service, slimbook-controlpanel
 Description: Slimbook common dependencies
  This metapackage includes the common software expected at any Slimbook product
 
