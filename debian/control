@@ -32,7 +32,8 @@ Description: Slimbook Excalibur metapackage
 
 Package: slimbook-meta-hero
 Architecture: all
-Depends: slimbook-meta-common, slimbook-qc71-dkms, slimbook-rgb-keyboard
+Depends: slimbook-meta-common, slimbook-qc71-dkms
+Recommends: hid-ite8291r3-dkms, slimbook-rgb-keyboard
 Provides: slimbook-meta-titan
 Description: Slimbook Hero/Titan metapackage
  This metapackage includes the common software expected at any Slimbook Hero or Titan laptop
@@ -59,8 +60,8 @@ Description: Slimbook Evo metapackage
 
 Package: slimbook-meta-creative
 Architecture: all
-Depends: slimbook-meta-common, slimbook-qc71-dkms, slimbook-rgb-keyboard
-Recommends: slimbook-grub-gpiowake-fix, slimbook-quirk-i8042-wakeup, slimbook-quirk-i8042-reset
+Depends: slimbook-meta-common, slimbook-qc71-dkms
+Recommends: slimbook-grub-gpiowake-fix, slimbook-quirk-i8042-wakeup, slimbook-quirk-i8042-reset, hid-ite8291r3-dkms, slimbook-rgb-keyboard
 Description: Slimbook Creative metapackage
  This metapackage includes the common software expected at any Slimbook Creative laptop
 

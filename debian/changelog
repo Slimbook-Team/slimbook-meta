@@ -1,3 +1,10 @@
+slimbook-meta (24.17) noble; urgency=medium
+
+  * Added hid-ite8191r3-dkms as recommeded package for titan/hero/creative
+  * Slimbook rgb moved to recommends and no longer is a dependency
+
+ -- Slimbook <dev@slimbook.es>  Fri, 15 May 2026 18:10:43 +0200
+
 slimbook-meta (24.16.0) noble; urgency=medium
 
   * Removed iwlwifi dependency from Executive as it harms more than solves
