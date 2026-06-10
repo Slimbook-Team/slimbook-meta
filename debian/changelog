@@ -1,3 +1,9 @@
+slimbook-meta (26.3) resolute; urgency=medium
+
+  * Droped yt6801 driver as it is no longer needed at kernel 7.0
+
+ -- Slimbook <dev@slimbook.es>  Wed, 10 Jun 2026 14:38:00 +0200
+
 slimbook-meta (26.2) resolute; urgency=medium
 
   * Added hid-ite8191r3-dkms as recommeded package for titan/hero/creative
