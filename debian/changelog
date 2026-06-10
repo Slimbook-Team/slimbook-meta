@@ -1,3 +1,9 @@
+slimbook-meta (24.18) noble; urgency=medium
+
+  * Added yt6801 to creative and executive
+
+ -- Slimbook <dev@slimbook.es>  Wed, 10 Jun 2026 14:34:26 +0200
+
 slimbook-meta (24.17) noble; urgency=medium
 
   * Added hid-ite8191r3-dkms as recommeded package for titan/hero/creative
