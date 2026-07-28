@@ -1,3 +1,9 @@
+slimbook-meta (26.4) resolute; urgency=medium
+
+  * Added software-properties-gtk to s26 meta
+
+ -- Slimbook <dev@slimbook.es>  Tue, 28 Jul 2026 18:43:42 +0200
+
 slimbook-meta (26.3) resolute; urgency=medium
 
   * Droped yt6801 driver as it is no longer needed at kernel 7.0
