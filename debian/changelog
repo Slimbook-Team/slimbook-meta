@@ -1,3 +1,9 @@
+slimbook-meta (24.19) noble; urgency=medium
+
+  * Dropped iommu fix from Excalibur meta
+
+ -- Slimbook <dev@slimbook.es>  Tue, 27 Oct 2026 12:39:59 +0100
+
 slimbook-meta (24.18) noble; urgency=medium
 
   * Added yt6801 to creative and executive
