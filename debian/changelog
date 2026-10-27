@@ -1,3 +1,9 @@
+slimbook-meta (26.5) resolute; urgency=medium
+
+  * Dropped iommu patch from Excalibur
+
+ -- Slimbook <dev@slimbook.es>  Tue, 27 Oct 2026 12:27:27 +0100
+
 slimbook-meta (26.4) resolute; urgency=medium
 
   * Added software-properties-gtk to s26 meta
